@@ -41,7 +41,8 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+# background-img: "../img/intro-bg.jpg"
+background-img: "../img/chess.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -58,7 +59,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Hello, World."
   - text: "Bonjour, Monde."
 
-me-img: "/img/self.png"
+me-img: "/img/self.jpg"
 
 ##############################
 # Color the browser elements #
@@ -113,10 +114,13 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/logo-vt.png"
     date: "January 2017 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
+    description: "Developing educational tools with Javascript, PHP, and other fun things."
+  - image: "/img/timeline/tiy.png"
     date: "Summer 2016"
-    description: "The Iron Yard Coding Bootcamp"
+    description: "The Iron Yard Coding Bootcamp - Ruby on Rails Back-End Engineering"
+  - image: "/img/timeline/yale.png"
+    date: "2014-2016"
+    description: "Lab Manager of Belief, Learning, and Memory Lab - Yale Department of Psychiatry"
 
 # First image of the Timeline
 
