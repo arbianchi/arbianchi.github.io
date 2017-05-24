@@ -172,7 +172,7 @@ a {
     -o-background-size: cover;
     .intro-body {
         display: table-cell;
-        vertical-align: top;
+        vertical-align: 10em;w;
         .brand-heading {
             font-size: 40px;
         }
@@ -444,8 +444,4 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
-}
-
-#self-header {
-  margin-top: 4em;
 }

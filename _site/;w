@@ -1,6 +1,3 @@
----
----
-
 @import "variables";
 @import "mixins";
 
@@ -162,9 +159,9 @@ a {
     padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
-    {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
-    {% endif %}
+    
+    background: url(../img/chess.jpg) no-repeat bottom center scroll;
+    
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,7 +169,7 @@ a {
     -o-background-size: cover;
     .intro-body {
         display: table-cell;
-        vertical-align: top;
+        vertical-align: 10em;w;
         .brand-heading {
             font-size: 40px;
         }
@@ -444,8 +441,4 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
-}
-
-#self-header {
-  margin-top: 4em;
 }
