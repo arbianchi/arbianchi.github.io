@@ -30,8 +30,8 @@ force-https: True
 
 lang: "en"
 author: "Adina Bianchi"
-title: "{ Adina Bianchi }"
-description: "Adina Bianchi - Software Developer"
+title: "{ Adina Bianchi - Software Developer }"
+description: "Adina Bianchi"
 keywords: "bianchi, adina, arbianchi"
 favicon: "/img/favicon.ico"
 
@@ -39,10 +39,8 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/chess.ico"
 
-# background-img: "../img/intro-bg.jpg"
-# background-img: "../img/billiards.jpg"
 background-img: "../img/chess.jpg"
 
 ##############################
@@ -57,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Hello, World."
+  - text: <h1>"Hello, World."</h1>
   - text: "Bonjour, Monde."
 
 me-img: "/img/self.jpg"
@@ -171,8 +169,8 @@ err-404-img: "/img/labtocat.png"
 ##################
 
 keybase-username: arbianchi
-keybase-in-social: True
-keybase-in-footer: True
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
@@ -182,7 +180,8 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  # Blog: 'latest-post'
+  Projects: 'projects'
   Timeline: 'timeline'
   Contact: 'contact'
 

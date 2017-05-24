@@ -14,11 +14,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Adina Bianchi - Software Developer">
+  <meta name="description" content="Adina Bianchi">
   <meta name="author" content="Adina Bianchi">
   <meta name="keywords" content="bianchi, adina, arbianchi">
   <link rel="canonical" href="/">
-  <title>{ Adina Bianchi }</title>
+  <title>{ Adina Bianchi - Software Developer }</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -100,10 +100,7 @@
         <a class="navbar-brand page-scroll" href="#page-top">
       
           <div>
-            
-              <img src="/img/black-lab-glass.ico" alt="">
-            
-            { Adina Bianchi }
+            { Adina Bianchi - Software Developer }
           </div>
         </a>
     </div>
@@ -146,18 +143,13 @@
 <header class="intro">
   <div class="intro-body">
     <div class="container">
-      <div class="row">
-          <div id="self-header" class="col-md-10 col-md-offset-1">
-            <span class="intro-text"><!--
-If you want to have a static message in your intro layout, disable the dynamic-typing in the _config.yml and write here your text
--->
-</span>
-            <h5>&nbsp;</h5>
-            <a href="#about" class="page-scroll">
-              <img class="img-me" src="/img/self.jpg" alt="">
-            </a>
-          </div>
+      <div id="self-header" class="col-md-10 col-md-offset-1">
+        <div class="row">
+          <a href="#about" class="page-scroll">
+            <img class="img-me" src="/img/self.jpg" alt="">
+          </a>
         </div>
+      </div>
     </div>
   </div>
 </header>
@@ -178,19 +170,10 @@ If you want to have a static message in your intro layout, disable the dynamic-t
 <section id="about" class="container content-section text-center">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h2 id="about">About</h2>
+      <h2 id="well-hello-world">Well Hello, World</h2>
 
-<p>Github’s Octocat was designed by Simon Oxley, alongside the white bird Twitter used (before they received a proper logo) as part of a usual routine of cranking out images for iStock. GitHub saw it, and wanted it, presumably under the notion that it can represent how complex code combines to create peculiar things, much like the octopuss… except the CEO of GitHub called it an octocat, and it has been the octocat since <a href="https://www.quora.com/GitHub/What-is-the-story-behind-GitHub%E2%80%99s-octocat-mascot" target="_blank">[via]</a>.</p>
-
-<p><small>
-Octocat is Github’s logo and trademark and here is used to illustrate a fictional character (John Smith) that used the <em>{ Personal }</em> Jekyll Theme to build his website.
-</small></p>
-
-<p>Support the repo by starring or forking it!</p>
-
-<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&amp;repo=personal-jekyll-theme&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-
-<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&amp;repo=personal-jekyll-theme&amp;type=fork&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+<p>I am a software developer based in Durham, NC. My specialties are Ruby on Rails, Javascript, and bash scripting but I like other languages and frameworks too! 
+This site, like many of us, is under construction.</p>
 
     </div>
   </div>
@@ -198,6 +181,8 @@ Octocat is Github’s logo and trademark and here is used to illustrate a fictio
 
 <!-- About End -->
 
+        
+      
         
       
         
@@ -254,6 +239,10 @@ Octocat is Github’s logo and trademark and here is used to illustrate a fictio
 
         <h2 id="latest-blog-post">Latest Blog Post</h2>
 
+<div class="row">
+  <span class="intro-text">{{ content }}</span>
+</div>
+
 
         
         <h4> <strong> 27 Jun 2015 </strong>
@@ -300,7 +289,11 @@ to cancel the serving (Ctr + C) and serve the website again.</p>
       
         
       
+        
+      
     
+      
+        
       
         
       
@@ -441,7 +434,7 @@ to cancel the serving (Ctr + C) and serve the website again.</p>
 
       <h2 id="contact">Contact</h2>
 
-<p>Drop me an email if you are interested in me coding for you or saving your neighborhood!</p>
+<p>Send me an email if you’d like to say hi or talk about writing code!</p>
 
 
       
@@ -495,6 +488,8 @@ to cancel the serving (Ctr + C) and serve the website again.</p>
       
         
       
+        
+      
     
 
     <!-- Footer Start -->
@@ -512,8 +507,6 @@ to cancel the serving (Ctr + C) and serve the website again.</p>
     <li><a href="https://github.com/PanosSakkos/personal-jekyll-theme" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
     
     
-    <li><a href="https://keybase.io/arbianchi" target="_blank"><i class="fa fa-key fa-fw"></i></a></li>
-    
 </ul>
 
 <!-- Social Buttons End -->
@@ -523,9 +516,6 @@ to cancel the serving (Ctr + C) and serve the website again.</p>
 
     <div class="container text-center">
         <p>Copyright &copy; Adina Bianchi 2017</p>
-        
-        <p style="font-size: 16px;"><a href="https://keybase.io/arbianchi" target="_blank"><i
-                class="fa fa-key"></i> arbianchi on Keybase</a></p>
         
     </div>
 </footer>
@@ -584,7 +574,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
   var myQuotes =  new Array();
   
-    myQuotes.push("Hello, World.");
+    myQuotes.push("<h1>"Hello, World."</h1>");
   
     myQuotes.push("Bonjour, Monde.");
   

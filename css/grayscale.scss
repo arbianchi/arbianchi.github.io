@@ -166,10 +166,10 @@ a {
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
     .intro-body {
         display: table-cell;
         vertical-align: top;
@@ -177,7 +177,7 @@ a {
             font-size: 40px;
         }
         .intro-text {
-            font-size: 18px;
+            font-size: 40px;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
@@ -447,5 +447,5 @@ body {
 }
 
 #self-header {
-  margin-top: 4em;
+  margin-top: 7em;
 }
