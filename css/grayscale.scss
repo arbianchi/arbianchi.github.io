@@ -166,18 +166,18 @@ a {
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     .intro-body {
         display: table-cell;
-        vertical-align: top;
+        vertical-align: middle;
         .brand-heading {
             font-size: 40px;
         }
         .intro-text {
-            font-size: 40px;
+            font-size: 18px;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
@@ -444,8 +444,4 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
-}
-
-#self-header {
-  margin-top: 7em;
 }

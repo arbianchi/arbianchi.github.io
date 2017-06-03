@@ -4,13 +4,15 @@
 <header class="intro">
   <div class="intro-body">
     <div class="container">
-      <div id="self-header" class="col-md-10 col-md-offset-1">
-        <div class="row">
-          <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-            <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
-          </a>
+      <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+              <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+            </a>
+            <h5>&nbsp;</h5>
+            <span class="intro-text">{{ content }}</span>
+          </div>
         </div>
-      </div>
     </div>
   </div>
 </header>

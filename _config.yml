@@ -12,8 +12,7 @@ url: "https://arbianchi.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl:
-
+baseurl: 
 # Google tracking id
 
 google-tracking-id: ""
@@ -30,18 +29,18 @@ force-https: True
 
 lang: "en"
 author: "Adina Bianchi"
-title: "{ Adina Bianchi - Software Developer }"
-description: "Adina Bianchi"
-keywords: "bianchi, adina, arbianchi"
+title: "{ Adina Bianchi }"
+description: "Adina Bianchi - Softward Developer"
+keywords: "adina, bianchi, arbianchi"
 favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/chess.ico"
+black-favicon: 
 
-background-img: "../img/chess.jpg"
+background-img: "../img/blueridge2.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -55,8 +54,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: <h1>"Hello, World."</h1>
-  - text: "Bonjour, Monde."
+  - text: "Software Developer"
 
 me-img: "/img/self.jpg"
 
@@ -92,8 +90,8 @@ post-preview-words: 96
 paginate: 5
 
 email-share: True
-fb-share: True
-twitter-share: True
+fb-share: False
+twitter-share: False
 linkedin-share: True
 reddit-share: False
 google-plus-share: False
@@ -102,7 +100,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: "arbianchi"
+disqus-shortname: 
 
 syntax-highlight: True
 
@@ -113,13 +111,10 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/logo-vt.png"
     date: "January 2017 - Today"
-    description: "Developing educational tools with Javascript, PHP, and other fun things."
+    description: "Developer at Voicethread"
   - image: "/img/timeline/tiy.png"
-    date: "Summer 2016"
-    description: "The Iron Yard Coding Bootcamp - Ruby on Rails Back-End Engineering"
-  - image: "/img/timeline/yale.png"
-    date: "2014-2016"
-    description: "Lab Manager of Belief, Learning, and Memory Lab - Yale Department of Psychiatry"
+    date: "Summer 2017"
+    description: "Iron Yard Backend Engineering Immersive"
 
 # First image of the Timeline
 
@@ -139,7 +134,7 @@ email: "acuriousloop@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Adina Bianchi is a software developer based in Durham, NC. She enjoys mountains, corn tortillas, and a good game of chess, among other things."
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -147,16 +142,8 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  # - title: "bitcoin"
-  #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  # - title: "rss"
-  #   url: "/feed.xml"
 
 ############
 # 404 page #
@@ -168,9 +155,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: arbianchi
-keybase-in-social: False
-keybase-in-footer: False
+# keybase-username: johnsmith
+# keybase-in-social: True
+# keybase-in-footer: True
 
 ################################################################################
 
@@ -180,8 +167,6 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  # Blog: 'latest-post'
-  Projects: 'projects'
   Timeline: 'timeline'
   Contact: 'contact'
 
