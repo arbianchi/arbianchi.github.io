@@ -33,16 +33,15 @@ background-img: "../img/blueridge2.jpg"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
-delete-delay: 5000
+delete-delay: 3000
 lines: # You can add HTML Tags in the Text
   - text: "Software Developer"
-  - text: "Chess Player"
-  - text: "Dog Enthusiast"
+  - text: "Développeur Logiciel"
 
 me-img: "/img/self.jpg"
 
@@ -78,6 +77,12 @@ events:
   - image: "/img/timeline/tiy.png"
     date: "Summer 2017"
     description: "Iron Yard Backend Engineering Immersive"
+  - image: "/img/timeline/yale.png"
+    date: "2014-2016"
+    description: "Lab Manager of Cognitive Neuroscience Lab"
+  - image: "/img/timeline/smith.png"
+    date: "2012"
+    description: "B.A. in Philosophy and French"
 
 # First image of the Timeline
 
@@ -89,16 +94,6 @@ timeline-img: "/img/timeline/default.png"
 
 email: "acuriousloop@gmail.com"
 
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -106,7 +101,9 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+    url: "https://github.com/arbianchi"
+  - title: "linkin"
+    url: "https://github.com/arbianchi"
 
 ############
 # 404 page #
@@ -114,24 +111,19 @@ social:
 
 err-404-img: "/img/labtocat.png"
 
-##################
-# GPG on Keybase #
-##################
-
-# keybase-username: johnsmith
-# keybase-in-social: True
-# keybase-in-footer: True
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Sections shown in the index page
+############
+# Pages #
+############
 
 pages_list:
   About: 'about'
   Timeline: 'timeline'
   Contact: 'contact'
+
+french_pages_list:
+  À Propos: 'apropos'
+  Chronologie: 'chronologie'
+  Contacte: 'contacte'
 
 # Exclusion list from the generated _site
 
