@@ -41,6 +41,8 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Software Developer"
+  - text: "Chess Player"
+  - text: "Dog Enthusiast"
 
 me-img: "/img/self.jpg"
 
