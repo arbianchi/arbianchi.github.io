@@ -73,7 +73,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 events:
   - image: "/img/timeline/logo-vt.png"
     date: "January 2017 - Today"
-    description: "Développeur at Voicethread"
+    description: "Développeur à Voicethread"
   - image: "/img/timeline/tiy.png"
     date: "Summer 2017"
     description: "Iron Yard Backend Engineering Immersive"
@@ -84,13 +84,13 @@ events:
 french_events:
   - image: "/img/timeline/logo-vt.png"
     date: "Janvier 2017 - Aujourd'hui"
-    description: "Developer at Voicethread"
+    description: "Développeur at Voicethread"
   - image: "/img/timeline/tiy.png"
-    date: "Summer 2017"
-    description: "Iron Yard Backend Engineering Immersive"
+    date: "Été 2017"
+    description: "Iron Yard Ruby on Rails Cours Immersif"
   - image: "/img/timeline/yale.png"
     date: "2014-2016"
-    description: "Lab Manager of Cognitive Neuroscience Lab"
+    description: "Coordinateur du lab neuroscience cognitive"
 
 # First image of the Timeline
 
