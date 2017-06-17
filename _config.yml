@@ -73,7 +73,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 events:
   - image: "/img/timeline/logo-vt.png"
     date: "January 2017 - Today"
-    description: "Développeur à Voicethread"
+    description: "Software Developer at Voicethread"
   - image: "/img/timeline/tiy.png"
     date: "Summer 2017"
     description: "Iron Yard Backend Engineering Immersive"
